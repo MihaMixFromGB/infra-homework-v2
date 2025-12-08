@@ -5,3 +5,5 @@ const actual = require("./actual.json");
 
 assert.deepEqual(configYml, actual);
 assert.deepEqual(configYaml, actual);
+
+console.log('test:cjs: Проверка пройдена успешно!');
