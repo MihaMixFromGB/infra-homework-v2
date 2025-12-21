@@ -22,4 +22,4 @@
 
 Для дебага yarn можно воспользоваться запуском через node:
 
-`node --inspect-wait .yarn/releases/yarn-4.12.0.cjs`
+`node --inspect-wait .yarn/releases/yarn-4.12.0.cjs duplicates`
