@@ -1385,6 +1385,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"task-7@workspace:tasks/task-7":
+  version: 0.0.0-use.local
+  resolution: "task-7@workspace:tasks/task-7"
+  languageName: unknown
+  linkType: soft
+
 "toidentifier@npm:~1.0.1":
   version: 1.0.1
   resolution: "toidentifier@npm:1.0.1"

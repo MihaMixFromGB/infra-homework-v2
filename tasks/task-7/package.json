@@ -1,0 +1,13 @@
+{
+  "name": "task-7",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/index.js",
+    "lintcommit": "node ./lint-commit.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
