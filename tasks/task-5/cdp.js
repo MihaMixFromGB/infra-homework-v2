@@ -43,7 +43,12 @@ async function test() {
     await DOM.enable();
 
     // Здесь нужно получить содержимое элемента #root
-    const result = '???';
+    const {
+      result: { value: result },
+    } = await Runtime.evaluate({
+      expression: `document.querySelector('#root').innerText`,
+      returnByValue: true, // Обязательно, чтобы получить строку, а не описание объекта
+    });
 
     assert.equal(result, expected);
   } catch (err) {
