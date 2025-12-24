@@ -4,6 +4,7 @@
 
 Для начала необходимо запустить Google Chrome с флагом `--remote-debugging-port=9222`.
 
+В Ubuntu: /usr/bin/google-chrome --remote-debugging-port=9222 --user-data-dir="/tmp/chrome-debug"
 В windows можно добавить флаг запуска [через свойства](https://remontka.pro/add-shortcut-parameters-windows/), на macos можно запустить с помощью команды:
 
 ```
