@@ -2,12 +2,17 @@
   "name": "task-7",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "prepare": "lefthook install",
     "test": "node ./test/index.js",
     "lintcommit": "node ./lint-commit.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "lefthook": "^2.0.13"
+  }
 }

@@ -19,3 +19,6 @@
 При вызове скрипта `lintcommit` внутри `commit-msg` также необходимо передавать аргумент `$1` - путь до файла с commit message.
 
 Для vscode включен показ .git папки, для webstorm воспользуйтесь [инструкцией](https://stackoverflow.com/questions/35784352/intellij-doesnt-show-git-directory).
+
+- запустить yarn prepare для создания хука commit-msg в .git/hooks
+- yarn test - для запуска тестов
