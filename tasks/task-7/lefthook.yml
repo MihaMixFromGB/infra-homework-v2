@@ -1,0 +1,4 @@
+commit-msg:
+  commands:
+    lint-commit:
+      run: node ./tasks/task-7/lint-commit.js {1}
