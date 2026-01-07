@@ -1,0 +1,21 @@
+{
+  "name": "task-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:stream": "node --max-old-space-size=16 ./tasks/stream/index.js",
+    "test:fs": "node ./tasks/fs/index.js",
+    "test:perf": "node ./tasks/perf.js",
+    "test:request": "node ./tasks/request/index.js",
+    "test:process": "node ./tasks/process/index.js",
+    "test:worker": "node ./tasks/worker/index.js",
+    "build": "echo build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

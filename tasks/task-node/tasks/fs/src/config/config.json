@@ -1,0 +1,5 @@
+{
+  "BASE_API_URL": "https://example.com/",
+  "BASE_CONFIG_URL": "https://s3.ya.ru/project/config/stable",
+  "AUTH_STRATEGY": "SSO"
+}
