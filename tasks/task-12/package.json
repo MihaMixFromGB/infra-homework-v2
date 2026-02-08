@@ -4,6 +4,9 @@
   "description": "Необходимо запустить докер контейнер внутри которого будет запущена нода с `server.js`.",
   "main": "index.js",
   "scripts": {
+    "build": "docker build -t task-12 .",
+    "start": "docker run -d -p 3000:8080 -v $(pwd)/static:/app/var/static:ro --name task-12 task-12",
+    "stop": "docker stop task-12 && docker rm task-12",
     "test": "node test.js"
   },
   "keywords": [],

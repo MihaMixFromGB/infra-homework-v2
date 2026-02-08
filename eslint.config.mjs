@@ -6,7 +6,7 @@ export default defineConfig([
     files: ["**/*.{js,mjs,cjs}"],
     plugins: { js },
     rules: {
-      'no-console': 'warn'
-    }
-  }
+      "no-console": "off",
+    },
+  },
 ]);
